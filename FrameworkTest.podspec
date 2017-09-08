@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FrameworkTest/**/*.{h,m}'
+  s.source_files = 'FrameworkTest/FrameworkTest/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'FrameworkTest' => ['FrameworkTest/Assets/*.png']
   # }
 
-    s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+#s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
     s.public_header_files = 'FrameworkTest/**/*.{h,m}'
    s.frameworks = 'UIKit', 'Foundation','CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
