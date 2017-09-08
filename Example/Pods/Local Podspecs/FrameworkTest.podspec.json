@@ -1,0 +1,23 @@
+{
+  "name": "FrameworkTest",
+  "version": "0.1.0",
+  "summary": "A short description of FrameworkTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jilei6/FrameworkTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jilei6": "consins@cubee.com"
+  },
+  "source": {
+    "git": "https://github.com/jilei6/FrameworkTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FrameworkTest/Classes/*.{h,m}",
+  "public_header_files": "FrameworkTest/Classes/*.{h,m}"
+}
