@@ -38,6 +38,6 @@ TODO: Add long description of the pod here.
 
     s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
     s.public_header_files = 'FrameworkTest/Classes/*.{h,m}'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'Foundation','CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
